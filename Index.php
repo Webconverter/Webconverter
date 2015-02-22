@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>
-  Welcome to the the online image converter    <br>
+  Welcome to the the online image converter 
   the project is currently in the earliest of early stages 
 
   </h1>
@@ -14,6 +14,9 @@
     x.setAttribute("type", "file");
     document.body.appendChild(x);}
     </script>
+   
+    <!-- THIS IS THE GO ELEMENT FOR THE PYTON CONVERSION SCRIPT DO NOT-->
+    <div id="button"><button onclick="myFunction();">Convert</button></div>
 
   <?php
    function getimg{
