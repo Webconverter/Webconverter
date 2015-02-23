@@ -2,10 +2,9 @@
 Is a Project to create a online web app open source image (and mabye in the futrure other forms of media) converter
 
 
+We are in the beggining creating an basic app centered primarly around getting a jpeg to png we will in the futre try to add as many file formats as possible
 
-We are in the beggining creating basic app centered primarly around getting a jpeg to png we will in the futre try to add as many file formats as possible
-
-The first release runs using a php sending webpage who will then send the file to the serverside which will then convert it using Python
+The project Primarly runs on python and Php
 
 LISENCE:
 
