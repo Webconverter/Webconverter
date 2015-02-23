@@ -7,4 +7,4 @@ We are in the beggining creating an basic app centered primarly around getting a
 The project Primarly runs on python and php
 
 
-Copyright 2015 Transistor Media
+©Copyright 2015 Transistor Media
