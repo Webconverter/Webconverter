@@ -4,5 +4,7 @@ Is a Project to create a online web app open source image (and mabye in the futr
 
 We are in the beggining creating an basic app centered primarly around getting a jpeg to png we will in the futre try to add as many file formats as possible
 
-The project Primarly runs on python and Php
+The project Primarly runs on python and Phython
 
+
+Copyright 2015 Transistor Media
