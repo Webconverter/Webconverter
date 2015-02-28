@@ -1,0 +1,18 @@
+<div style="padding:40px;margin:40px;border:1px solid #ccc">
+	<h1> Picture </h1>
+	<form action="#" method="POST" enctype="multipart/form-data">
+		{% csrf_token %} {{form}}
+		<select name="select_box">
+			<option value="JPG">JPG</option>
+			<option value="PNG">PNG</option>
+		</select>
+		<input type="submit" value="upload" />
+		
+		
+	</form>	
+	
+	{% for img in images %}
+		<li>{{foorloop.counter}}<a href="{{img.pic.url}}">{{ img.pic.name }} </a></li>
+	 {% endfor %}
+</div>
+
