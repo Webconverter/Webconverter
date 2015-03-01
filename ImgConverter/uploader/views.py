@@ -13,16 +13,10 @@ def home(request):
             img.save()
             wantedFormat = str(request.POST.get("select_box"))
             name = str(request.FILES['pic'])
-            location = image(name, wantedFormat)
-            print(location)
-            return render(request, 'convert.html',{ 'newimage':location})		
+            message = image(name, wantedFormat)
+            if message == 'not supported':
+                return render(request, 'home.html', {'form':img, 'message': message}) 
+            return render(request, 'convert.html',{ 'newimage':message})
     else:
         img = UploadForm()
-    images = Upload.objects.all()
-    return render(request, 'home.html',{'form':img,'images':images})		
-
-
-		
-	
-
-
+    return render(request, 'home.html',{'form':img})

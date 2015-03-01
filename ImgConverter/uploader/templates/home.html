@@ -1,3 +1,4 @@
+<h1> Sorry: {{message}} </h1>
 <div style="padding:40px;margin:40px;border:1px solid #ccc">
 	<h1> Picture </h1>
 	<form action="#" method="POST" enctype="multipart/form-data">
@@ -10,9 +11,5 @@
 		
 		
 	</form>	
-	
-	{% for img in images %}
-		<li>{{foorloop.counter}}<a href="{{img.pic.url}}">{{ img.pic.name }} </a></li>
-	 {% endfor %}
 </div>
 
