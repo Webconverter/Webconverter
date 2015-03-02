@@ -16,7 +16,7 @@ def home(request):
             message = image(name, wantedFormat)
             if message == 'not supported':
                 return render(request, 'home.html', {'form':img, 'message': message}) 
-            return render(request, 'convert.html',{ 'newimage':message})
+            return render(request, 'home.html',{ 'newimage':message})
     else:
         img = UploadForm()
     return render(request, 'home.html',{'form':img})

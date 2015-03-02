@@ -2,7 +2,7 @@ from PIL import Image
 from django.conf import settings
 
 
-supported = ['.jpg', '.png']
+supported = ['.jpg', '.png','.bmp', '.tiff']
 
 def image(curr_file, wntd_file):
     ext = '.' + curr_file.split('.')[-1]
@@ -15,7 +15,7 @@ def image(curr_file, wntd_file):
 	    Image.open(curr_file_path).save(new_path)
 	    return curr_file
     else:
-	    return 'not supported'
+	    return 'sorry not supported'
 
 
  

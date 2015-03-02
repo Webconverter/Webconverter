@@ -1,4 +1,9 @@
-<h1> Sorry: {{message}} </h1>
+<html>
+<head>
+<title> upload application </title>
+</head>
+<body>
+<h1> {{message}} </h1>
 <div style="padding:40px;margin:40px;border:1px solid #ccc">
 	<h1> Picture </h1>
 	<form action="#" method="POST" enctype="multipart/form-data">
@@ -6,6 +11,8 @@
 		<select name="select_box">
 			<option value="jpg">jpg</option>
 			<option value="png">png</option>
+			<option value="bmp">bmp</option>
+			<option value="tiff">tiff</option>
 		</select>
 		<input type="submit" value="upload" />
 		
@@ -13,3 +20,13 @@
 	</form>	
 </div>
 
+<div style="padding:40px;margin:40px;border:1px solid #ccc">
+	<h1> Converted </h1>	
+	<a href="{{ MEDIA_URL }}images/{{newimage}}"><img src="{{ MEDIA_URL }}images/{{newimage}}">
+	</a>
+
+</div>
+
+
+</body>
+</html>
