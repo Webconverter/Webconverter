@@ -13,8 +13,9 @@ def home(request):
             img.save("test")
             wantedFormat = request.POST.get("select_box")
             name = str(request.FILES['pic'])
-            print(name)
-            message = image(name, wantedFormat)
+            x = request.POST.get("x_value")
+            y = request.POST.get("y_value")
+            message = image(name, wantedFormat, x, y)
             if message == 'not supported':
                 return render(request, 'home.html', {'form':img, 'newimage': message}) 
             return render(request,'home.html',{'form':img, 'newimage':message})
