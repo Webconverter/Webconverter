@@ -15,11 +15,11 @@ def home(request):
             name = str(request.FILES['pic'])
             x = request.POST.get("x_value")
             y = request.POST.get("y_value")
-            message = image(name, wantedFormat, x, y)
+            rot = request.POST.get("deg_value")
+            message = image(name, wantedFormat, x, y, rot)
             if message == 'not supported':
                 return render(request, 'home.html', {'form':img, 'newimage': message}) 
             return render(request,'home.html',{'form':img, 'newimage':message})
-
     else:
         img = UploadForm()
     return render(request, 'home.html',{'form':img})

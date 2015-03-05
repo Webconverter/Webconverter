@@ -7,6 +7,7 @@
 <div style="padding:40px;margin:40px;border:1px solid #ccc">
 	<h1> Picture </h1>
 	<form action="#" method="POST" enctype="multipart/form-data">
+		
 		{% csrf_token %} {{form}}
 		<select name="select_box">
 			<option value="jpg">jpg</option>
@@ -15,11 +16,12 @@
 			<option value="tiff">tiff</option>
 		</select>
 		<input type="submit" value="upload" />
-
 		<label>x</label>
 		<input type="text" name="x_value"/> 
 		<label>y:</label>
 		<input type="text" name="y_value"/>
+		<label> rotate(positive values for counter clockwise and negative for clockwise) </label>
+		<input type="text" name="deg_value" value=0 />
 		
 		
 		
@@ -27,7 +29,7 @@
 </div>
 
 <div style="padding:40px;margin:40px;border:1px solid #ccc">
-	<h1> Converted </h1>	
+	<h1> Convert </h1>	
 	<a href="{{MEDIA_URL}}{{newimage}}"> Download here!
 	</a>
 
