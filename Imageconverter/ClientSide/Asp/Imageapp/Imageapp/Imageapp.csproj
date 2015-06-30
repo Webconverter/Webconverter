@@ -108,6 +108,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="App_Data\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -116,7 +117,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="Bootstrap\css\" />
+    <Folder Include="Bootstrap\fonts\" />
+    <Folder Include="Bootstrap\js\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
