@@ -39,6 +39,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ImageProcessor, Version=2.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImageProcessor.2.2.6.0\lib\net45\ImageProcessor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ImageProcessor.Web, Version=4.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ImageProcessor.Web.4.3.4.0\lib\net45\ImageProcessor.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
@@ -122,6 +130,7 @@
     <Folder Include="Bootstrap\js\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Nuget\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

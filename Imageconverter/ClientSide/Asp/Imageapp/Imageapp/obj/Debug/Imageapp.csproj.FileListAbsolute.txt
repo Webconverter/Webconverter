@@ -24,3 +24,5 @@ C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Image
 C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Imageapp\Imageapp\obj\Debug\Imageapp.csprojResolveAssemblyReference.cache
 C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Imageapp\Imageapp\obj\Debug\Imageapp.dll
 C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Imageapp\Imageapp\obj\Debug\Imageapp.pdb
+C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Imageapp\Imageapp\bin\ImageProcessor.dll
+C:\Users\Vetle\Documents\GitHub\Webconverter\Imageconverter\ClientSide\Asp\Imageapp\Imageapp\bin\ImageProcessor.Web.dll
