@@ -44,9 +44,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index_files/index.html">Home</a></li>
-            <li><a href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index_files/index.html">About</a></li>
-            <li><a href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index.html#contact">Contact</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#abuts">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,16 +60,23 @@
 
         <form action="/file-upload"
               class="dropzone"
-              id="my-awesome-dropzone"></form>
+              id="Fileupload">
+        </form>
+    <!--Script for the dropzone. Note cant be arsed to create a seperate script for now-->
+    <script>
+      Dropzone.options.fileupload = {
+        paramName: "file", //The name that will be used by the server tempromarliy when the file is handeled
+        maxFilesize: 10, //Limits all incoming files to 10 mb's  NOTE: THIS IS A TEMPROMARY SECURTIY MESSAUER
+      }
 
-
+    </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="Js\Dropzone.js"></script>
     <script src="./index_files/jquery.min.js"></script>
     <script src="./index_files/bootstrap.min.js"></script>
-  
+
 
 
 
