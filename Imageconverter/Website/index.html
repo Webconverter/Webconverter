@@ -12,12 +12,13 @@
   <meta name="author" content="">
   <link rel="icon" href="Website\index_files\Webconverter-01.png">
 
-  <title>#name</title>
+  <title>Webconverter.io The servers are on fire</title>
 
   <!-- Bootstrap core CSS -->
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <!--The core css of the site is in this file -->
+  <link href="css/onepager.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="starter-template.css" rel="stylesheet">
 </head>
@@ -33,7 +34,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index_files/index.html">#Name</a>
+        <a class="navbar-brand" href="#"><img src="Imageconverter\Website\index_files\Websitelogo.svg"></img></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
         <ul class="nav navbar-nav">
@@ -49,11 +50,17 @@
   <div class="container">
 
     <div class="starter-template">
-      <h1>The Online Img convertaa</h1>
+
+
 
 
       <form action="/file-upload" class="dropzone" id="Fileupload" name="Fileupload">
+        <div id="dragdrop">
+          <h1>Upload your files here</h1>
+          <p>(Come on, i know you want to)</p>
+        </div>
       </form>
+
       <!--Script for the dropzone. Note cant be arsed to create a seperate script for now-->
       <script>
         Dropzone.options.fileupload = {
@@ -61,7 +68,7 @@
           maxFilesize: 10, //Limits all incoming files to 10 mb's  NOTE: THIS IS A TEMPROMARY SECURTIY MESSAUER
         }
       </script>
-
+</div>
       <!-- Bootstrap core JavaScript
     ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
