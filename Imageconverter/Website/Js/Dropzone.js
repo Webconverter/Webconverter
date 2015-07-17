@@ -126,7 +126,7 @@
       thumbnailWidth: 120,
       thumbnailHeight: 120,
       filesizeBase: 1000,
-      maxFiles: null,
+      maxFiles: 2, //change at a later date
       filesizeBase: 1000,
       params: {},
       clickable: true,
@@ -136,7 +136,7 @@
       autoProcessQueue: true,
       autoQueue: true,
       addRemoveLinks: false,
-      previewsContainer: null,
+      previewsContainer: "#previewmenu",
       capture: null,
       dictDefaultMessage: "Or Click me if you want to manually select you files",
       dictFallbackMessage: "Your browser does not support drag'n'drop file uploads.",

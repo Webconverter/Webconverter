@@ -1,10 +1,19 @@
-#dragdrop{
-background-color: #ebebeb;
-height: 500px;
-
+#Conversioncontainer {
+  height: 500px;
+  width: 1000px;
 }
-h1
-{
- padding-top: 210.4px;
-
+#dragdrop {
+  background-color: #ebebeb;
+  height: 500px;
+  width: 80%;
+  float: left;
+}
+h1 {
+  padding-top: 210.4px;
+}
+#previewmenu {
+  background-color: #373b37;
+  width: 20%;
+  height: 500px;
+  float: right;
 }
