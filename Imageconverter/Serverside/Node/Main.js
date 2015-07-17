@@ -2,23 +2,10 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-console.log(" _    _      _      _" + '\n' +
-"| |  | |    | |    (_)" + '\n' +
-"| |  | | ___| |__   _  ___" + '\n' +
-"| |/\\| |/ _ \\ '_ \\ | |/ _ \\ " + '\n' +
-"\\  /\\  /  __/ |_) || | (_) |" + '\n' +
-" \\/__\\/ \\___|_.__(_)_|\\___/_ ______" + '\n' +
-"|______|______|______|______|______|" + '\n' +
-" ______ ______ ______ ______ ______ "+ '\n' +
-"|______|______|______|______|______|" + '\n' +
-"                              | | "+ '\n' +
-"  ___ ___  _ ____   _____ _ __| |_ ___ _ __" + '\n' +
-" / __/ _ \\| '_ \\ \\ / / _ \\ '__| __/ _ \\ '__|" + '\n' +
-"| (_| (_) | | | \\ V /  __/ |  | ||  __/ |" + '\n' +
-" \\___\\___/|_| |_|\\_/ \\___|_|   \\__\\___|_|" + '\n'
-);
-console.log(path.join(__dirname, '../../Website/'));
-app.use(express.static(path.join(__dirname, '../../Website')));
-app.listen(process.env.PORT || 3000);
 
-console.log('Server running at http://127.0.0.1:3000/');
+
+//app.use(express.compress()); ## option for compressing with gzip
+app.use(express.static(path.join(__dirname, '../../Website'))); // tells express where to look for the static files
+app.listen(process.env.PORT || 1706);
+
+console.log('Server running at http://127.0.0.1:1706/');
