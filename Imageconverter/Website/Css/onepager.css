@@ -1,21 +1,24 @@
 #Conversioncontainer {
   height: 500px;
   width: 1000px;
+
 }
 #dragdrop {
   background-color: #ebebeb;
   height: 500px;
   width: 80%;
   float: left;
+  box-shadow: 0px 0px 1px #888888;
 }
 h1 {
   padding-top: 210.4px;
 }
 #previewmenu {
-  background-color: #373b37;
+  background-color: #454645;
   width: 20%;
   height: 500px;
   float: right;
+  box-shadow: -2px 0px 5px #888888;
 }
 #oldschoolbiatch{
   align-content: center;
