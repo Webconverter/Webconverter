@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="Website\index_files\Webconverter-01.png">
+<html lang="en">
 
-    <title>#name</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="Website\index_files\Webconverter-01.png">
 
-    <!-- Bootstrap core CSS -->
-    <!-- Bootstrap -->
-   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>#name</title>
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-  </head>
-  <body>
+  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index_files/index.html">#Name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#abuts">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+  <!-- Custom styles for this template -->
+  <link href="starter-template.css" rel="stylesheet">
+</head>
 
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="file:///C:/Users/Vetle/Documents/GitHub/Webconverter/Imageconverter/Website/index_files/index.html">#Name</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#abuts">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
 
-      <div class="starter-template">
-        <h1>The Online Img convertaa</h1>
+  <div class="container">
+
+    <div class="starter-template">
+      <h1>The Online Img convertaa</h1>
 
 
-        <form action="/file-upload"
-              class="dropzone"
-              id="Fileupload"
-              name="Fileupload">
-        </form>
-    <!--Script for the dropzone. Note cant be arsed to create a seperate script for now-->
-    <script>
-      Dropzone.options.fileupload = {
-        paramName: "file", //The name that will be used by the server tempromarliy when the file is handeled
-        maxFilesize: 10, //Limits all incoming files to 10 mb's  NOTE: THIS IS A TEMPROMARY SECURTIY MESSAUER
-      }
+      <form action="/file-upload" class="dropzone" id="Fileupload" name="Fileupload">
+      </form>
+      <!--Script for the dropzone. Note cant be arsed to create a seperate script for now-->
+      <script>
+        Dropzone.options.fileupload = {
+          paramName: "file", //The name that will be used by the server tempromarliy when the file is handeled
+          maxFilesize: 10, //Limits all incoming files to 10 mb's  NOTE: THIS IS A TEMPROMARY SECURTIY MESSAUER
+        }
+      </script>
 
-    </script>
-
-    <!-- Bootstrap core JavaScript
+      <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="Js\Dropzone.js"></script>
-    <script src="./index_files/jquery.min.js"></script>
-    <script src="./index_files/bootstrap.min.js"></script>
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="Js\Dropzone.js"></script>
+      <script src="./index_files/jquery.min.js"></script>
+      <script src="./index_files/bootstrap.min.js"></script>
 
-</body></html>
+</body>
+
+</html>
