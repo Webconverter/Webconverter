@@ -9,6 +9,7 @@ fs.readFile(path.join(__dirname, '../../Website/', 'index.html'), function(error
     if (error) {
       throw error;
     }
+
     http.createServer(function (request, response) {
       // creates a server and defines request and respnse
       console.log('request starting...');
