@@ -112,7 +112,7 @@
      */
 
     Dropzone.prototype.events = ["drop", "dragstart", "dragend", "dragenter", "dragover", "dragleave", "addedfile", "removedfile", "thumbnail", "error", "errormultiple", "processing", "processingmultiple", "uploadprogress", "totaluploadprogress", "sending", "sendingmultiple", "success", "successmultiple", "canceled", "canceledmultiple", "complete", "completemultiple", "reset", "maxfilesexceeded", "maxfilesreached", "queuecomplete"];
-
+///#SETTINGS FOR DROPZONE ARE HERE !!!!
     Dropzone.prototype.defaultOptions = {
       url: null,
       method: "post",
@@ -138,7 +138,7 @@
       addRemoveLinks: false,
       previewsContainer: null,
       capture: null,
-      dictDefaultMessage: "Drop files here to upload",
+      dictDefaultMessage: "Or Click me if you want to manually select you files",
       dictFallbackMessage: "Your browser does not support drag'n'drop file uploads.",
       dictFallbackText: "Please use the fallback form below to upload your files like in the olden days.",
       dictFileTooBig: "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.",
