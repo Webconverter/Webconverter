@@ -4,7 +4,7 @@
 
 }
 #dragdrop {
-  background-color: #ebebeb;
+  background-color: rgb(233, 233, 233);
   height: 500px;
   width: 80%;
   float: left;
@@ -14,7 +14,7 @@ h1 {
   padding-top: 210.4px;
 }
 #previewmenu {
-  background-color: #454645;
+  background-color:#747474;
   width: 20%;
   height: 500px;
   float: right;
@@ -23,5 +23,13 @@ h1 {
 #oldschoolbiatch{
   align-content: center;
 
+}
+#previewpic_0{
+  align:top;
+
+}
+#previewpic_1
+{
+  align:middle;
 
 }
