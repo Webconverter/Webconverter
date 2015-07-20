@@ -25,11 +25,15 @@ h1 {
 
 }
 #previewpic_0{
-  align:top;
+  float:top;
+  height: 120; /* This is the box that contains the preview picture will need to be changed if we plan to rework the size in future*/
+  width: 200;
 
 }
 #previewpic_1
 {
-  align:middle;
+  float:middle;
+  height: 120;/* This is the box that contains the preview picture will need to be changed if we plan to rework the size in future*/
+  width: 200;
 
 }

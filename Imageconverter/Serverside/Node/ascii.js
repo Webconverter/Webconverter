@@ -1,4 +1,4 @@
- var colors = require('colors'); // silly require, since we wanted a more lively log message
+ var colors = require('colors'); // silly require, since we wanted a more lively log message :)
 function art(){
   console.log(
     " _    _      _      _" + '\n' +
