@@ -37,3 +37,12 @@ h1 {
   width: 200;
 
 }
+#submit /*The currently very unswaggy submit button*/
+{
+background-color: rgb(208, 207, 207);
+width: 140px;
+height: 40px;
+margin-left:360px;
+box-shadow: 0px 1px 1px #888888;
+
+}
