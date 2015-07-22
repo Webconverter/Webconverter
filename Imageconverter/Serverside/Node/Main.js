@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var readline = require('readline');
-var settings = require('./settings.js')
+
 
 
 //app.use(express.compress()); ## option for compressing with gzip
